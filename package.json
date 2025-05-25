@@ -1,0 +1,31 @@
+{
+  "name": "contracts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js",
+    "deploy:sepolia": "hardhat run scripts/deploy-sepolia.js --network sepolia",
+    "deploy:mainnet": "hardhat run scripts/deploy-mainnet.js --network mainnet",
+    "deploy:improved": "hardhat run scripts/deploy-improved.js",
+    "deploy:sepolia:improved": "hardhat run scripts/deploy-sepolia-improved.js --network sepolia",
+    "verify": "hardhat run scripts/verify-contracts.js",
+    "verify:sepolia": "hardhat run scripts/verify-contracts.js --network sepolia",
+    "verify:mainnet": "hardhat run scripts/verify-contracts.js --network mainnet",
+    "node": "hardhat node",
+    "clean": "hardhat clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.24.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.3.0",
+    "dotenv": "^16.5.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "network": "sepolia",
+  "adminRegistry": "0x1fF485D6F3466cCBD7D4DBA499032A26ee5C2E5e",
+  "campaignFactory": "0x081B1eDa0659d8C78194234B0aEa9C06803997A0",
+  "platformWallet": "0x9694c84B55b311Bba7460d19F2148270e86Ed169",
+  "usdtAddress": "0xad959BF6614909Fd8F9E2BAe8119E13D12E8f9D3",
+  "timestamp": "2025-05-20T12:55:19.137Z"
+}
